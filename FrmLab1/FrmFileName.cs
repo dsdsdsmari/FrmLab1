@@ -24,6 +24,9 @@ namespace FrmLab1
               txtFileName and concatenate it with ".txt" */
             SetFileName = txtFileName.Text + ".txt";
 
+            MessageBox.Show("File created!", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
             // Call the Close() method to close the form
             Close();
         }
