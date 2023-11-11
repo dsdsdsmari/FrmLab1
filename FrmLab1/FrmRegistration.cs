@@ -38,7 +38,7 @@ namespace FrmLab1
             //desired format
             string[] studentInfoArray = {
                 "Student No: " + studentNo,
-                "Full Name: " + firstName + " " + middleInitial + " " + lastName,
+                "Full Name: " + lastName + " " + firstName + " " + middleInitial,
                 "Program: " + program,
                 "Gender: " + gender,
                 "Age: " + age,
