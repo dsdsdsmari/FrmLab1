@@ -18,9 +18,9 @@ namespace FrmLab1
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new FrmLab1());
             //Application.Run(new FrmRegistration());
-            //Application.Run(new FrmOpenTextFile());
+            Application.Run(new FrmOpenTextFile());
 
-            Application.Run(new FrmStudentRecord());
+            //plication.Run(new FrmStudentRecord());
         }
     }
 }

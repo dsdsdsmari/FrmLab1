@@ -78,7 +78,7 @@ namespace FrmLab1
             
 
             Close();
-            Application.Exit();
+            
         }
 
 
