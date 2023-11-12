@@ -20,6 +20,11 @@ namespace FrmLab1
 
         private void btnOpen_Click(object sender, EventArgs e)
         {
+            DisplayToList();
+        }
+
+        private void DisplayToList()
+        {
             openFileDialog1.InitialDirectory = @"C:\";
             openFileDialog1.Title = "Browse Text Files";
             openFileDialog1.DefaultExt = "txt";

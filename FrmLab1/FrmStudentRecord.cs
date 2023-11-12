@@ -73,8 +73,9 @@ namespace FrmLab1
 
         private void btnUpload_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Successfully Uploaded!", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
             lvViewRecord.Items.Clear();
+            MessageBox.Show("Successfully Uploaded!", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            
 
             Close();
             Application.Exit();
