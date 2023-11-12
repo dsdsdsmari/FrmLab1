@@ -58,8 +58,16 @@ namespace FrmLab1
             MessageBox.Show("Registration completed!", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             // Close the form
-            Close();
+            // Close();
 
+        }
+
+        private void btnRecords_Click(object sender, EventArgs e)
+        {
+            FrmStudentRecord frmStudentRecord = new FrmStudentRecord();
+            frmStudentRecord.Show();
+            Close();
+            
         }
     }
 }

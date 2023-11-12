@@ -48,6 +48,7 @@
             this.dateTimeBirthday = new System.Windows.Forms.DateTimePicker();
             this.cbProgram = new System.Windows.Forms.ComboBox();
             this.cbGender = new System.Windows.Forms.ComboBox();
+            this.btnRecords = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -145,7 +146,7 @@
             // btnRegister
             // 
             this.btnRegister.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.btnRegister.Location = new System.Drawing.Point(249, 224);
+            this.btnRegister.Location = new System.Drawing.Point(245, 248);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(141, 32);
             this.btnRegister.TabIndex = 10;
@@ -245,12 +246,24 @@
             this.cbGender.Size = new System.Drawing.Size(154, 26);
             this.cbGender.TabIndex = 19;
             // 
+            // btnRecords
+            // 
+            this.btnRecords.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnRecords.Location = new System.Drawing.Point(471, 214);
+            this.btnRecords.Name = "btnRecords";
+            this.btnRecords.Size = new System.Drawing.Size(141, 32);
+            this.btnRecords.TabIndex = 20;
+            this.btnRecords.Text = "Records";
+            this.btnRecords.UseVisualStyleBackColor = false;
+            this.btnRecords.Click += new System.EventHandler(this.btnRecords_Click);
+            // 
             // FrmRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(624, 268);
+            this.ClientSize = new System.Drawing.Size(624, 292);
+            this.Controls.Add(this.btnRecords);
             this.Controls.Add(this.cbGender);
             this.Controls.Add(this.cbProgram);
             this.Controls.Add(this.dateTimeBirthday);
@@ -273,7 +286,7 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmRegistration";
             this.Text = "FrmRegistration";
             this.ResumeLayout(false);
@@ -303,5 +316,6 @@
         private System.Windows.Forms.DateTimePicker dateTimeBirthday;
         private System.Windows.Forms.ComboBox cbProgram;
         private System.Windows.Forms.ComboBox cbGender;
+        private System.Windows.Forms.Button btnRecords;
     }
 }
